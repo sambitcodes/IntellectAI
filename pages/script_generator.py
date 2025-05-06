@@ -2,7 +2,6 @@
 YouTube Script Generator Page
 """
 import streamlit as st
-import markdown
 from utils.groq_client import GroqGenerator, AVAILABLE_MODELS
 from utils.prompting import YOUTUBE_SCRIPT_TEMPLATE, CONVERSATION_SYSTEM_PROMPT
 
