@@ -1,0 +1,97 @@
+/* Main app styling */
+.stApp {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+.main-title {
+    color: #1E3A8A;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+/* Chat message styling */
+.user-message {
+    background-color: #F3F4F6;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.assistant-message {
+    background-color: #EFF6FF;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #3B82F6;
+}
+
+/* Thinking section styling */
+.thinking-expander {
+    background-color: #FFFBEB;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.thinking-content {
+    font-family: monospace;
+    font-size: 0.9rem;
+    color: #4B5563;
+}
+
+/* Button styling */
+.primary-button {
+    background-color: #3B82F6;
+    color: white;
+    font-weight: 600;
+}
+
+.secondary-button {
+    background-color: #E5E7EB;
+    color: #4B5563;
+}
+
+.clear-button {
+    background-color: #FEE2E2;
+    color: #DC2626;
+}
+
+/* Input field styling */
+.stTextInput > div > div > input {
+    border-radius: 8px;
+}
+
+.stTextArea > div > div > textarea {
+    border-radius: 8px;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #F9FAFB;
+}
+
+/* Custom section styling */
+.section-container {
+    background-color: #F9FAFB;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #E5E7EB;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1F2937;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #E5E7EB;
+    text-align: center;
+    color: #6B7280;
+    font-size: 0.8rem;
+}
